@@ -9,10 +9,9 @@ const main = async () => {
   const contractAddess  = 'terra1vgezj7ejp0w4p7f4l6vgp8qhujn5p5hsykdfvf'
   const result = await terra.wasm.contractQuery(contractAddess, 
     {
-      transfer: {
-        recipient: "terra1f8wkdt7sms3c3tucaqle7yvn59v8qz27srlghj",
-        amount: "1000000"
-      }
+        balance: {
+          address: "terra1f8wkdt7sms3c3tucaqle7yvn59v8qz27srlghj"
+        }
     }
   );
 

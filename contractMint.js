@@ -18,9 +18,9 @@ const main = async () => {
     wallet.key.accAddress, // sender
     contractAddess, // contract account address
     {
-			transfer: {
-					recipient: "terra1f8wkdt7sms3c3tucaqle7yvn59v8qz27srlghj",
-					amount: "100"
+			mint:{
+				recipient: "terra16twetz7x39lsqflmepnpup77a7dsjwzzyhdmx9",
+				amount: "42069"
 			}
     }, // handle msg
     { uluna: 1 } // coins
